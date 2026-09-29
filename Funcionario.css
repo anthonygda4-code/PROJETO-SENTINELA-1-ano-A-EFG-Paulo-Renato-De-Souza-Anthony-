@@ -1,0 +1,81 @@
+body{
+    height: 100vh;
+    background-image: url(https://img.magnific.com/fotos-premium/fundo-abstrato-de-pontos-laranja-e-branco_762785-334435.jpg?semt=ais_hybrid&w=740&q=80);
+    font-family: 'Poppins', sans-serif; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 500px;
+    backdrop-filter:  blur(7px);
+    border-radius: 67px;
+    padding: 30px;
+    border: 1px, solid rgba(255, 186, 57, 0.3);
+    background-color:linear-gradient(45deg, rgb(255, 113, 70), rgb(219, 148, 148));
+}
+
+.paba{
+    background-color: rgb(255, 188, 126);
+    border-radius: 40px;
+    border: 1px, solid rgba(255, 0, 0, 0.3);
+}
+
+.titulo{
+    font-weight: 600;
+}
+
+label{
+    font-weight: 440;
+    font-size: larger;
+    color: rgb(153, 65, 34);
+}
+
+.by{
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transition:  all 0.3s ease-in-out;
+}
+
+.by:hover{
+    scale: 1.07;
+    background-color: rgb(194, 144, 37);
+    color: rgb(182, 116, 54);
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.menor{
+    background-color: rgb(255, 214, 161);
+    border-radius: 40px;
+    backdrop-filter: blur(7px);
+}
+
+input{
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    color: rgb(226, 94, 0);
+}
+
+input:hover{
+    background-color: rgba(143, 99, 32, 0.4);
+}
+
+input:focus{
+    background-color: rgba(154, 190, 190, 0.562);
+    color: white;
+}
+
+::-webkit-input-placeholder{
+    color: rgba(68, 43, 10, 0.6);
+}
+button{color: white;}

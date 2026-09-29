@@ -1,0 +1,87 @@
+body{
+    height: 100vh;
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/t1/41023567-onda-branco-e-laranja-fundo-com-gradiente-conceito-gratis-vetor.jpg);
+    font-family: 'Poppins', sans-serif; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Logo{width: 300px;
+    height: 300;
+    position: relative;
+    left: 750px;
+    top: -40px;}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.login{
+    font-weight: 600;
+}
+
+.maior{
+    max-width: 600px;
+    backdrop-filter:  blur(7px);
+    border-radius: 67px;
+    padding: 30px;
+    border: 1px, solid rgba(233, 233, 233, 0.3);
+    background-color: rgba(255, 205, 159, 0.3); 
+}
+
+
+.menor{
+    background-color: rgba(255, 127, 53, 0.5);
+    border-radius: 40px;
+    backdrop-filter: blur(7px);
+}
+
+.titulo{
+    background-image: linear-gradient(45deg, rgb(252, 193, 117), rgb(231, 151, 85));
+    border-radius: 40px;
+}
+
+.form-control{
+    border-radius: 26px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.932);
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+.form-control:hover{
+    background-color: rgba(204, 119, 7, 0.4);
+    box-shadow: 0px 0px 9px white;
+}
+
+.form-control:focus{
+    background-color: rgba(219, 216, 111, 0.973);
+    color: white;
+}
+
+label{
+    font-size: larger;
+    font-weight:440;
+}
+
+.by{
+    border-radius: 30px;
+    background-color: black;
+    border: none;
+    transition:  all 0.3s ease-in-out;
+}
+
+.by:hover{
+    scale: 1.07;
+    background-color: rgb(218, 164, 120);
+    color: aliceblue;
+}
+
+::-webkit-input-placeholder{
+    color: rgb(0, 0, 0);
+}
+
+button{color: white;}
